@@ -14,40 +14,16 @@ int main(void)
 
 {
 
-int x, y;
-
-
-
-
-
-for (m = 97; m <= 122; m++)
-
-putchar(m);
-
-for (n = 65; n <= 90; n++)
-
-putchar(n);
-
-
-
-for (x = 97; x<= 122; x++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 
 {
-
-putchar(x);
-
+putchar(ch);
 }
-
-for (y = 65; y <= 90; y++)
-
+for (ch = 'A'; ch <= 'z'; ch++)
 {
-
-putchar(y);
-
+putchar(ch);
 }
-
-	
-
 putchar('\n');
 
 return (0);
