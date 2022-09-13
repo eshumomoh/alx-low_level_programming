@@ -4,9 +4,12 @@
  *
  * Description: using the main function
  * this program prints alphabet in lower case
- * Return 0
+ * Return: Always (success) 
  */
 int main(void)
+{
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 	putchar (ch);
 }
